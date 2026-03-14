@@ -40,7 +40,7 @@ export const routes: RouteItem[] = [
       { time: '10:30', title: '旭山动物园核心参观', detail: '重点观看企鹅散步、北极熊馆、海豹馆与企鹅馆，适合亲子和第一次来北海道的客人。', image: '/images/asahiyama/penguin-walk-hd-01.jpg' },
       { time: '11:30', title: '北极熊馆', detail: '观赏旭山动物园最受欢迎的北极熊馆，近距离看北极熊活动与馆内动线设计。', image: '/images/asahiyama/polar-bear-hd-01.jpg' },
       { time: '13:00', title: '海豹馆', detail: '参观海豹馆经典圆柱水槽与水下观察区，是园内辨识度很高的一站。', image: '/images/asahiyama/seal-hd-01.jpg' },
-      { time: '15:00', title: '雪景公路 / 田野补景', detail: '返程途中可按天气停靠雪原、树林或服务区拍照，补充北海道冬日氛围感。' },
+      { time: '15:00', title: '雪景公路 / 田野补景', detail: '返程途中可按天气停靠雪原、树林或服务区拍照，补充北海道冬日氛围感。', image: '/images/asahiyama/snow-road-hd-01.jpg' },
       { time: '18:00', title: '返回札幌', detail: '送回酒店，适合作为北海道亲子行程中的轻松一日安排。' },
     ],
     title: {
