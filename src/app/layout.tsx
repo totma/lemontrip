@@ -1,34 +1,22 @@
-import type { Metadata } from "next";
-import { Inter, Noto_Sans_JP } from "next/font/google";
-import "./globals.css";
-import Navigation from "@/components/Navigation";
-import Footer from "@/components/Footer";
-import FloatingCTA from "@/components/FloatingCTA";
-import BackToTop from "@/components/BackToTop";
-
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
-const notoSansJP = Noto_Sans_JP({ subsets: ["latin"], variable: "--font-noto" });
+import type { Metadata } from 'next';
+import './globals.css';
+import SiteHeader from '@/components/SiteHeader';
+import SiteFooter from '@/components/SiteFooter';
 
 export const metadata: Metadata = {
-  title: "北海道プレミアムトラベル - 安心・安全・快適な北海道包车服务",
-  description: "专业的北海道包车服务,提供机场接送、观光包车、商务VIP等服务。多语言司机,透明报价,合法资质。",
+  title: 'LemonTrip | 北海道包车路线展示',
+  description: 'LemonTrip 北海道包车路线展示网站，包含路线列表、详情、车辆介绍与预约入口。',
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="ja" className={`${inter.variable} ${notoSansJP.variable}`}>
-      <body className="font-sans">
-        <Navigation />
-        <main className="min-h-screen">
-          {children}
-        </main>
-        <Footer />
-        <FloatingCTA />
-        <BackToTop />
+    <html lang="zh">
+      <body>
+        <div className="min-h-screen bg-[linear-gradient(180deg,#edf7ff_0%,#f8fbfd_35%,#ffffff_100%)] text-slate-900">
+          <SiteHeader />
+          <main>{children}</main>
+          <SiteFooter />
+        </div>
       </body>
     </html>
   );
