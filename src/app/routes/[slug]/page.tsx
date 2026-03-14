@@ -71,10 +71,12 @@ export default async function RouteDetailPage({ params }: { params: Promise<{ sl
           <div className="mt-8 space-y-6">
             {route.itinerary.map((item) => (
               <div key={`${item.time}-${item.title}`} className="overflow-hidden rounded-[1.5rem] border border-slate-200 bg-white">
-                <div className="grid gap-0 md:grid-cols-[220px_1fr]">
-                  <div className="relative min-h-[180px] md:min-h-full">
-                    <Image src={item.image} alt={item.title} fill className="object-cover" sizes="(max-width: 768px) 100vw, 220px" />
-                  </div>
+                <div className={item.image ? 'grid gap-0 md:grid-cols-[220px_1fr]' : 'block'}>
+                  {item.image ? (
+                    <div className="relative min-h-[180px] md:min-h-full">
+                      <Image src={item.image} alt={item.title} fill className="object-cover" sizes="(max-width: 768px) 100vw, 220px" />
+                    </div>
+                  ) : null}
                   <div className="p-5">
                     <div className="flex flex-wrap items-center justify-between gap-3">
                       <p className="text-sm uppercase tracking-[0.22em] text-sky-700">{item.time}</p>

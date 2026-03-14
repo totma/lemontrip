@@ -1,0 +1,10 @@
+{
+  "alphard": {
+    "exterior": "/images/vehicles/alphard-exterior-google-01.png",
+    "interior": "/images/vehicles/alphard-interior-google-01.png"
+  },
+  "hiace": {
+    "exterior": "/images/vehicles/hiace-exterior-google-01.png",
+    "interior": "/images/vehicles/hiace-interior-google-01.png"
+  }
+}
