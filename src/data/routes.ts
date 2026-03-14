@@ -36,11 +36,11 @@ export const routes: RouteItem[] = [
     tags: ['亲子', '动物园', '企鹅散步'],
     highlights: ['企鹅散步', '北极熊馆', '海豹馆', '旭川雪景公路'],
     itinerary: [
-      { time: '08:00', title: '札幌市区出发', detail: '酒店或民宿上门接送，走道央高速北上，冬季全程包车更省心。', image: '/images/snow-scenery/07.jpg' },
+      { time: '08:00', title: '札幌市区出发', detail: '酒店或民宿上门接送，走道央高速北上，冬季全程包车更省心。', image: '/images/snow-scenery/01.jpg' },
       { time: '10:30', title: '旭山动物园核心参观', detail: '重点观看企鹅散步、北极熊馆、海豹馆与企鹅馆，适合亲子和第一次来北海道的客人。', image: '/images/asahiyama/penguin-walk/01.jpg' },
       { time: '13:30', title: '旭川午餐', detail: '可灵活安排旭川拉面村、成吉思汗或当地定食，避免跟团赶时间。', image: '/images/asahiyama/polar-bear/01.jpg' },
-      { time: '15:00', title: '雪景公路 / 田野补景', detail: '返程途中可按天气停靠雪原、树林或服务区拍照，补充北海道冬日氛围感。', image: '/images/snow-scenery/09.jpg' },
-      { time: '18:00', title: '返回札幌', detail: '送回酒店，适合作为北海道亲子行程中的轻松一日安排。', image: '/images/snow-scenery/06.jpg' },
+      { time: '15:00', title: '雪景公路 / 田野补景', detail: '返程途中可按天气停靠雪原、树林或服务区拍照，补充北海道冬日氛围感。', image: '/images/snow-scenery/01.jpg' },
+      { time: '18:00', title: '返回札幌', detail: '送回酒店，适合作为北海道亲子行程中的轻松一日安排。', image: '/images/snow-scenery/01.jpg' },
     ],
     title: {
       zh: '旭山动物园一日游',
@@ -66,7 +66,7 @@ export const routes: RouteItem[] = [
       { time: '10:30', title: '青池 & 白须瀑布', detail: '冬季可看雪覆蓝池与结冰溪谷，夏季是经典蓝绿色水景，全年都很上镜。', image: '/images/biei-furano/blue-pond-winter/01.jpg' },
       { time: '12:30', title: '富良野 / 美瑛午餐', detail: '可安排汤咖喱、蛋包饭、农场餐厅或网红咖啡馆，自由度高。', image: '/images/biei-furano/shirahige-falls/01.jpg' },
       { time: '14:00', title: '拼布之路 / 四季彩之丘', detail: '根据季节改走丘陵、花田、孤独的树或雪地活动点，兼顾轻松与出片率。', image: '/images/biei-furano/shikisai-no-oka/01.webp' },
-      { time: '17:30', title: '返回札幌', detail: '日落前后返程，冬季沿途雪原和林道也很适合补拍风景。', image: '/images/biei-furano/blue-pond-summer/01.jpg' },
+      { time: '17:30', title: '返回札幌', detail: '日落前后返程，冬季沿途雪原和林道也很适合补拍风景。', image: '/images/biei-furano/patchwork-road/02.jpg' },
     ],
     title: {
       zh: '美瑛富良野一日游',
@@ -92,7 +92,7 @@ export const routes: RouteItem[] = [
       { time: '10:30', title: '小樽运河散策', detail: '漫步石仓群、运河边步道与港口街景，冬季尤其有电影感。', image: '/images/otaru/canal/01.jpg' },
       { time: '12:00', title: '海鲜或甜品午餐', detail: '可自由安排寿司、海胆饭、LeTAO 甜品或咖啡馆，不被固定餐标限制。', image: '/images/otaru/canal/05.jpg' },
       { time: '14:00', title: '堺町通自由活动', detail: '逛玻璃工艺、音乐盒堂、伴手礼商店，也可加走天狗山看海港高处视角。', image: '/images/otaru/sakaimachi/01.jpg' },
-      { time: '17:00', title: '傍晚返回札幌', detail: '若天气好可拍蓝调时刻雪街或港口灯景，再返回市区。', image: '/images/otaru/tenguyama/01.jpg' },
+      { time: '17:00', title: '傍晚返回札幌', detail: '若天气好可拍蓝调时刻雪街或港口灯景，再返回市区。', image: '/images/otaru/snow-street/02.jpg' },
     ],
     title: {
       zh: '小樽一日游',
@@ -114,12 +114,12 @@ export const routes: RouteItem[] = [
     tags: ['雪地摩托', '温泉', '湖景'],
     highlights: ['雪地摩托体验', '洞爷湖雪原', '登别温泉街', '昭和新山 / 熊牧场可选'],
     itinerary: [
-      { time: '08:00', title: '札幌出发', detail: '沿道央高速南下，包车可减少换乘并更灵活控制停留时间。', image: '/images/snow-scenery/02.jpg' },
+      { time: '08:00', title: '札幌出发', detail: '沿道央高速南下，包车可减少换乘并更灵活控制停留时间。', image: '/images/snow-scenery/06.jpg' },
       { time: '10:00', title: '洞爷湖雪地摩托体验', detail: '优先安排湖畔或雪原区域的雪地摩托体验，作为整条路线的核心亮点，适合想玩一点刺激项目又不想走太赶的客人。', image: '/images/noboribetsu-toya/snowmobile/01.jpg' },
       { time: '12:00', title: '洞爷湖午餐 & 湖景休息', detail: '在湖区餐厅安排午餐，顺带拍摄湖面、雪山和温泉街景，节奏比常规跟团更松弛。', image: '/images/noboribetsu-toya/lake-toya/01.jpg' },
       { time: '14:00', title: '登别温泉街 / 地狱谷轻徒步', detail: '下午转往登别，保留地狱谷作为补充看点，以温泉街散策和火山地貌短停为主。', image: '/images/noboribetsu-toya/onsen-street/01.jpg' },
       { time: '15:30', title: '昭和新山 / 熊牧场可选', detail: '若时间充裕，可增加昭和新山、熊牧场或有珠山缆车等机动景点，让行程更灵活。', image: '/images/noboribetsu-toya/jigokudani/01.jpg' },
-      { time: '18:30', title: '返回札幌', detail: '适合作为冬季北海道里兼顾玩雪、看湖景与温泉氛围的一条成熟一日线路。', image: '/images/noboribetsu-toya/onsen-street/02.jpg' },
+      { time: '18:30', title: '返回札幌', detail: '适合作为冬季北海道里兼顾玩雪、看湖景与温泉氛围的一条成熟一日线路。', image: '/images/snow-scenery/07.jpg' },
     ],
     title: {
       zh: '登别洞爷雪地摩托一日游',
