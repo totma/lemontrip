@@ -1,0 +1,241 @@
+[
+  {
+    "category": "asahiyama/penguin-walk",
+    "count": 5,
+    "sources": {
+      "gs.ctrip.com": 5
+    },
+    "quality": "一般",
+    "avg_pixels": 450432
+  },
+  {
+    "category": "asahiyama/polar-bear",
+    "count": 1,
+    "sources": {
+      "klook.cn": 1
+    },
+    "quality": "一般",
+    "avg_pixels": 124416
+  },
+  {
+    "category": "asahiyama/seal",
+    "count": 5,
+    "sources": {
+      "gs.ctrip.com": 5
+    },
+    "quality": "一般",
+    "avg_pixels": 374700
+  },
+  {
+    "category": "asahiyama/snow-zoo",
+    "count": 4,
+    "sources": {
+      "klook.cn": 4
+    },
+    "quality": "一般",
+    "avg_pixels": 124416
+  },
+  {
+    "category": "biei-furano/blue-pond-summer",
+    "count": 5,
+    "sources": {
+      "klook.cn": 1,
+      "klook.com": 4
+    },
+    "quality": "一般",
+    "avg_pixels": 320734
+  },
+  {
+    "category": "biei-furano/blue-pond-winter",
+    "count": 5,
+    "sources": {
+      "klook.com": 4,
+      "klook.cn": 1
+    },
+    "quality": "一般",
+    "avg_pixels": 320734
+  },
+  {
+    "category": "biei-furano/patchwork-road",
+    "count": 5,
+    "sources": {
+      "gs.ctrip.com": 5
+    },
+    "quality": "一般",
+    "avg_pixels": 351000
+  },
+  {
+    "category": "biei-furano/shikisai-no-oka",
+    "count": 1,
+    "sources": {
+      "klook.com": 1
+    },
+    "quality": "中",
+    "avg_pixels": 1250000
+  },
+  {
+    "category": "biei-furano/shirahige-falls",
+    "count": 5,
+    "sources": {
+      "klook.com": 4,
+      "klook.cn": 1
+    },
+    "quality": "一般",
+    "avg_pixels": 124416
+  },
+  {
+    "category": "east-hokkaido/abashiri-icebreaker",
+    "count": 5,
+    "sources": {
+      "you.ctrip.com": 5
+    },
+    "quality": "一般",
+    "avg_pixels": 271927
+  },
+  {
+    "category": "east-hokkaido/kussharo-swans",
+    "count": 5,
+    "sources": {
+      "gs.ctrip.com": 5
+    },
+    "quality": "高",
+    "avg_pixels": 2073984
+  },
+  {
+    "category": "east-hokkaido/mashu-lake",
+    "count": 1,
+    "sources": {
+      "vacations.ctrip.com": 1
+    },
+    "quality": "一般",
+    "avg_pixels": 36800
+  },
+  {
+    "category": "east-hokkaido/red-crowned-crane",
+    "count": 5,
+    "sources": {
+      "wwwstage.klook.com": 1,
+      "klook.com": 2,
+      "klook.cn": 2
+    },
+    "quality": "一般",
+    "avg_pixels": 628404
+  },
+  {
+    "category": "east-hokkaido/shiretoko-five-lakes",
+    "count": 5,
+    "sources": {
+      "gs.ctrip.com": 5
+    },
+    "quality": "一般",
+    "avg_pixels": 374400
+  },
+  {
+    "category": "noboribetsu-toya/jigokudani",
+    "count": 5,
+    "sources": {
+      "gs.ctrip.com": 5
+    },
+    "quality": "一般",
+    "avg_pixels": 350850
+  },
+  {
+    "category": "noboribetsu-toya/lake-toya",
+    "count": 1,
+    "sources": {
+      "hotels.ctrip.com": 1
+    },
+    "quality": "一般",
+    "avg_pixels": 67500
+  },
+  {
+    "category": "noboribetsu-toya/onsen-street",
+    "count": 5,
+    "sources": {
+      "gs.ctrip.com": 5
+    },
+    "quality": "一般",
+    "avg_pixels": 374700
+  },
+  {
+    "category": "noboribetsu-toya/snowmobile",
+    "count": 5,
+    "sources": {
+      "you.ctrip.com": 5
+    },
+    "quality": "一般",
+    "avg_pixels": 221952
+  },
+  {
+    "category": "otaru/canal",
+    "count": 6,
+    "sources": {
+      "klook.com": 6
+    },
+    "quality": "中",
+    "avg_pixels": 719706
+  },
+  {
+    "category": "otaru/sakaimachi",
+    "count": 5,
+    "sources": {
+      "klook.com": 5
+    },
+    "quality": "中",
+    "avg_pixels": 730848
+  },
+  {
+    "category": "otaru/snow-street",
+    "count": 5,
+    "sources": {
+      "klook.com": 5
+    },
+    "quality": "一般",
+    "avg_pixels": 640400
+  },
+  {
+    "category": "otaru/tenguyama",
+    "count": 5,
+    "sources": {
+      "klook.com": 5
+    },
+    "quality": "中",
+    "avg_pixels": 879320
+  },
+  {
+    "category": "vehicles/alphard-exterior",
+    "count": 4,
+    "sources": {
+      "m.ctrip.com": 4
+    },
+    "quality": "一般",
+    "avg_pixels": 223553
+  },
+  {
+    "category": "vehicles/alphard-interior",
+    "count": 4,
+    "sources": {
+      "klook.com": 4
+    },
+    "quality": "一般",
+    "avg_pixels": 412596
+  },
+  {
+    "category": "vehicles/hiace-exterior",
+    "count": 4,
+    "sources": {
+      "m.ctrip.com": 4
+    },
+    "quality": "一般",
+    "avg_pixels": 223553
+  },
+  {
+    "category": "vehicles/hiace-interior",
+    "count": 4,
+    "sources": {
+      "m.ctrip.com": 4
+    },
+    "quality": "一般",
+    "avg_pixels": 223553
+  }
+]

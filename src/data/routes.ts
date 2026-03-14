@@ -141,12 +141,12 @@ export const routes: RouteItem[] = [
     tags: ['深度游', '秘境', '野生动物'],
     highlights: ['屈斜路湖', '摩周湖', '知床', '流冰破冰船', '丹顶鹤'],
     itinerary: [
-      { time: 'D1', title: '札幌 / 新千岁集合', detail: '接机后出发前往道东方向，按航班与季节安排首晚住宿。', image: '/images/east-hokkaido/shiretoko-five-lakes/01.jpg' },
+      { time: 'D1', title: '札幌 / 新千岁集合', detail: '接机后出发前往道东方向，按航班与季节安排首晚住宿。', image: '/images/east-hokkaido/kussharo-swans/02.jpg' },
       { time: 'D2', title: '阿寒湖 / 屈斜路湖', detail: '看湖景、温泉与冬季天鹅等季节性风物，节奏相对舒缓。', image: '/images/east-hokkaido/kussharo-swans/01.jpg' },
       { time: 'D3', title: '摩周湖 & 硫黄山', detail: '高能见度时安排经典观景点，也可增加硫黄山与周边地热地貌。', image: '/images/east-hokkaido/mashu-lake/01.jpg' },
       { time: 'D4', title: '知床 / 网走方向', detail: '根据季节安排知床五湖、流冰破冰船、鄂霍次克海沿线或野生动物观察。', image: '/images/east-hokkaido/abashiri-icebreaker/01.jpg' },
       { time: 'D5', title: '鹤居村 / 钏路湿原', detail: '冬季重点看丹顶鹤，其他季节可走湿原展望与生态摄影路线。', image: '/images/east-hokkaido/red-crowned-crane/01.jpg' },
-      { time: 'D6', title: '返程日', detail: '根据回程城市安排送机或回札幌，可做最后的湖景或湿原补拍。', image: '/images/east-hokkaido/shiretoko-five-lakes/02.jpg' },
+      { time: 'D6', title: '返程日', detail: '根据回程城市安排送机或回札幌，可做最后的湖景或湿原补拍。', image: '/images/east-hokkaido/kussharo-swans/03.jpg' },
     ],
     title: {
       zh: '道东6天5晚深度游',
