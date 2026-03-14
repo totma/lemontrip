@@ -1,0 +1,112 @@
+{
+  "classes": {
+    "asahiyama-zoo": [
+      "093e6ec7-056c-4dd9-9307-996bd816c002.jpg",
+      "13b21eaa-67cd-434e-a583-fec55025c4b5.jpg",
+      "29a86217-0389-4b12-8025-95ebf4e93f7a.jpg",
+      "3146ad12-79d3-437d-b575-5584ed5186c9.jpg",
+      "326870a4-2d62-40e6-a78c-470261a32cbd.jpg",
+      "36c15b95-81e4-4dda-8e97-a1fa8ff28ac3.jpg",
+      "3a97834a-3599-4452-bab7-8f7ddd5fb254.jpg",
+      "4238a5d8-34f5-4e32-8bf6-a87280204933.jpg",
+      "43ad2426-8a61-4912-b911-4f7bd6452d15.jpg",
+      "774769df-fc0b-4e1e-a623-deb66d09655d.jpg",
+      "8e514541-ce6b-46fd-aefd-50286c3c8bcf.jpg",
+      "9a2155e6-7c07-48ed-b028-92e3607e24aa.jpg",
+      "ae38e85d-1482-4222-8603-b356750a71d5.jpg",
+      "baa704d1-82d7-4d56-84fe-0ffd5dc23226.jpg",
+      "cfc251ea-6fd0-49c3-b5c2-faf00f2a9b0d.jpg",
+      "f99add3b-a82a-4fec-bfe5-8ae862657e13.jpg"
+    ],
+    "biei-furano": [
+      "061f4bf1-718d-4146-941a-b06d9bdc8c31.jpg",
+      "1e534586-8221-4c0b-a6f1-3e6ff44adc61.jpg",
+      "412373ef-3add-4402-b4db-43eae3817c06.jpg",
+      "4e5a7302-ae02-4d6e-b5ac-2f133138c02a.jpg",
+      "508e7cf4-ae10-4000-a3ae-c99c28d344f6.jpg",
+      "89432b9c-e2b1-43c5-b043-3ac02106ff91.jpg",
+      "932625df-5be4-4aeb-81c3-22b9c1679e6b.jpg",
+      "985c8dad-b5b3-41be-8b48-5cb44508b12c.jpg",
+      "98a632ef-0663-4b3d-9b09-33510f317235.jpg",
+      "b2b704e1-3f9f-4ef1-ae0f-e014fbbd81cc.jpg",
+      "c8ce2d24-188d-4d18-8bfe-d4c558ad59c9.jpg",
+      "cc79e2d0-7adb-4545-820d-2d08aeb98eae.jpg",
+      "cde28cd3-be3b-43f8-b1be-c299f243c71c.jpg",
+      "d95545b9-30a1-4bf5-87cd-699e0725a565.jpg",
+      "ef827bc7-8221-4d18-9cb9-adee2dbb384e.jpg",
+      "f4f9f1e1-5913-4c7d-b37f-c5a38b771038.jpg",
+      "fa360ef7-5886-47ee-aa08-baaa811a8a88.jpg",
+      "fa5b3265-fc4e-4dee-9adc-fb022c58fbf3.jpg"
+    ],
+    "otaru": [
+      "0ba0609d-cddd-43a0-a773-7dde61325c6e.jpg",
+      "14b3fa06-7bbd-40b6-9a78-c4522d3d5e06.jpg",
+      "1738f396-8d77-4dfe-8ab4-111b4cae022a.jpg",
+      "36539451-fe50-4623-ae3e-95c9bbb6e0f6.jpg",
+      "566aaa47-ed55-468b-bfdb-0446a59091b1.jpg",
+      "5bc96739-9c4b-4b8b-b500-7de560a08263.jpg",
+      "6c4b720b-9bc0-4d60-9f01-7d6f14763c4a.jpg",
+      "71aee5f0-e64a-48c8-8e3c-e00e73eed0d7.jpg",
+      "85db00b3-9614-485e-abae-3fd9061a6f22.jpg",
+      "911f6c1c-5563-47ee-a89e-d10de4f71891.jpg",
+      "94fb3d14-3e14-4295-b1ea-03c3ede2449c.jpg",
+      "bf47708e-8b3b-4565-9e78-bdb882f32fac.jpg",
+      "bf542b10-dc20-485a-acfa-ea97dce56fe1.jpg",
+      "d4c0905a-c3f6-46fe-94c8-6e875a644113.jpg",
+      "f62515a9-2402-4835-bc38-a911f4f17735.jpg"
+    ],
+    "noboribetsu-toya": [
+      "73f5bf03-2469-4912-b022-3f3705698743.jpg",
+      "312b00f6-4a78-4d7d-a07f-6d75d33030a5.jpg",
+      "3193ed26-cc3c-4234-b6eb-f37639016d06.jpg",
+      "51f2cd69-991b-4b0a-bbcf-75c0de5bfa4b.jpg",
+      "5c68b08f-0488-4cbe-9f58-3b7d9c316a82.jpg",
+      "73b8c7ce-25bd-4a58-9a56-a464c078c964.jpg",
+      "8fa49a70-e4ea-438c-847a-0ba2e6c3207a.jpg",
+      "9de73493-5801-49a8-b5f8-f3bb1b91cbb3.jpg",
+      "d6f92548-8b31-450c-8cca-392b6cfc2803.jpg"
+    ],
+    "eastern-hokkaido": [
+      "5ec8beb5-3de5-476b-9cf8-ac58378518bd.jpg",
+      "6338ecd2-e97e-4b9f-b0ac-8cf60fbdabb9.jpg",
+      "1b10f486-b451-4678-854d-b5b3882512e8.jpg",
+      "3cc8a547-2c1b-46cc-b96d-50a79d9df804.jpg",
+      "535a60e4-1d54-4487-a53f-8fb0d8a0cf20.jpg",
+      "6b23a655-744c-4914-be47-8e1b6c538acb.jpg",
+      "7c395587-0dba-4fac-9cda-47f9ac64c5c5.jpg",
+      "9f3fbc72-9228-47c5-8e02-7ce4169ba10b.jpg",
+      "a53345a0-faab-464e-a233-15a9ede612a9.jpg",
+      "db3ad108-c1a9-4dcc-bbbf-eca125c1af50.jpg",
+      "f4bb20fc-a221-4a8d-9f86-8f0ce7ba1c5f.jpg"
+    ],
+    "vehicles": [
+      "10623fda-8a62-4ab8-91ed-fdfd5beea865.jpg",
+      "36539451-fe50-4623-ae3e-95c9bbb6e0f6.jpg",
+      "85db00b3-9614-485e-abae-3fd9061a6f22.jpg",
+      "af96724d-6754-4ba5-ba80-d96db8e79510.jpg",
+      "cd66c455-6747-4580-ac0e-ec973384d13e.jpg",
+      "d3bc5299-c5d0-417f-9721-a0516f4ac342.jpg",
+      "d6d3a49b-1108-43fe-90f4-c7f1a7bf757a.jpg"
+    ],
+    "snow-scenery": [
+      "33d05779-69cf-4d47-8185-54cfae85f114.jpg",
+      "ca4f55fc-42d4-4073-898a-abce2e7ac548.jpg",
+      "d3174b66-f78c-444e-9f69-fae39c7a77bd.jpg",
+      "f6e4bc74-e0fe-40d7-ad32-080e50fca752.jpg",
+      "f96f7646-2e5f-43ad-95d3-7f060d26f22f.jpg",
+      "file_0---6422ef07-4668-4fcb-80aa-9e872ec98a9a.jpg",
+      "0fac335f-e475-452b-ae9c-69ba5499303b.jpg",
+      "1b7c4e57-6d29-4969-b133-c6b595641929.jpg",
+      "c7df3926-8762-41f0-9951-21697d03f0c6.jpg"
+    ]
+  },
+  "summary": {
+    "asahiyama-zoo": 16,
+    "biei-furano": 18,
+    "otaru": 15,
+    "noboribetsu-toya": 9,
+    "eastern-hokkaido": 11,
+    "vehicles": 7,
+    "snow-scenery": 9
+  }
+}
