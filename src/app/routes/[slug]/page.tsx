@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { routeMap, routes } from '@/data/routes';
@@ -18,7 +19,9 @@ export default async function RouteDetailPage({ params }: { params: Promise<{ sl
     <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
       <section className="overflow-hidden rounded-[2.5rem] border border-slate-200 bg-white shadow-lg shadow-slate-900/5">
         <div className="grid lg:grid-cols-[1.05fr_0.95fr]">
-          <div className="min-h-[340px] bg-cover bg-center lg:min-h-[560px]" style={{ backgroundImage: `url(${route.image})` }} />
+          <div className="relative min-h-[340px] lg:min-h-[560px]">
+            <Image src={route.image} alt={route.title.zh} fill className="object-cover" sizes="(max-width: 1024px) 100vw, 52vw" priority />
+          </div>
           <div className="p-8 lg:p-10">
             <p className="text-xs uppercase tracking-[0.36em] text-sky-700">Route Detail</p>
             <h1 className="mt-4 text-4xl font-semibold tracking-tight text-slate-900 sm:text-5xl">{route.title.zh}</h1>
@@ -65,14 +68,21 @@ export default async function RouteDetailPage({ params }: { params: Promise<{ sl
         <div className="rounded-[2rem] border border-slate-200 bg-white p-8 shadow-lg shadow-slate-900/5">
           <p className="text-xs uppercase tracking-[0.34em] text-slate-500">Itinerary</p>
           <h2 className="mt-4 text-3xl font-semibold text-slate-900">行程节奏</h2>
-          <div className="mt-8 space-y-5">
+          <div className="mt-8 space-y-6">
             {route.itinerary.map((item) => (
-              <div key={`${item.time}-${item.title}`} className="rounded-[1.5rem] border border-slate-200 p-5">
-                <div className="flex items-center justify-between gap-4">
-                  <p className="text-sm uppercase tracking-[0.22em] text-sky-700">{item.time}</p>
-                  <p className="text-lg font-semibold text-slate-900">{item.title}</p>
+              <div key={`${item.time}-${item.title}`} className="overflow-hidden rounded-[1.5rem] border border-slate-200 bg-white">
+                <div className="grid gap-0 md:grid-cols-[220px_1fr]">
+                  <div className="relative min-h-[180px] md:min-h-full">
+                    <Image src={item.image} alt={item.title} fill className="object-cover" sizes="(max-width: 768px) 100vw, 220px" />
+                  </div>
+                  <div className="p-5">
+                    <div className="flex flex-wrap items-center justify-between gap-3">
+                      <p className="text-sm uppercase tracking-[0.22em] text-sky-700">{item.time}</p>
+                      <p className="text-lg font-semibold text-slate-900">{item.title}</p>
+                    </div>
+                    <p className="mt-3 text-sm leading-7 text-slate-600">{item.detail}</p>
+                  </div>
                 </div>
-                <p className="mt-3 text-sm leading-7 text-slate-600">{item.detail}</p>
               </div>
             ))}
           </div>
