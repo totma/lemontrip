@@ -29,7 +29,7 @@ export type RouteItem = {
 export const routes: RouteItem[] = [
   {
     slug: 'asahiyama-zoo-day-tour',
-    image: '/images/asahiyama-zoo/14.jpg',
+    image: '/images/asahiyama-zoo/01.jpg',
     duration: '1 Day',
     priceFrom: '¥45,000 起 / 车',
     season: 'Winter / All season',
@@ -37,7 +37,7 @@ export const routes: RouteItem[] = [
     highlights: ['企鹅散步', '北极熊馆', '海豹馆', '旭川雪景公路'],
     itinerary: [
       { time: '08:00', title: '札幌市区出发', detail: '酒店或民宿上门接送，走道央高速北上，冬季全程包车更省心。', image: '/images/snow-scenery/07.jpg' },
-      { time: '10:30', title: '旭山动物园核心参观', detail: '重点观看企鹅散步、北极熊馆、海豹馆与企鹅馆，适合亲子和第一次来北海道的客人。', image: '/images/asahiyama-zoo/14.jpg' },
+      { time: '10:30', title: '旭山动物园核心参观', detail: '重点观看企鹅散步、北极熊馆、海豹馆与企鹅馆，适合亲子和第一次来北海道的客人。', image: '/images/asahiyama-zoo/01.jpg' },
       { time: '13:30', title: '旭川午餐', detail: '可灵活安排旭川拉面村、成吉思汗或当地定食，避免跟团赶时间。', image: '/images/asahiyama-zoo/06.jpg' },
       { time: '15:00', title: '雪景公路 / 田野补景', detail: '返程途中可按天气停靠雪原、树林或服务区拍照，补充北海道冬日氛围感。', image: '/images/snow-scenery/09.jpg' },
       { time: '18:00', title: '返回札幌', detail: '送回酒店，适合作为北海道亲子行程中的轻松一日安排。', image: '/images/snow-scenery/06.jpg' },
@@ -64,7 +64,7 @@ export const routes: RouteItem[] = [
     itinerary: [
       { time: '08:00', title: '札幌出发', detail: '包车前往美瑛富良野方向，车程较长但路线成熟，适合全天拍照打卡。', image: '/images/biei-furano/15.jpg' },
       { time: '10:30', title: '青池 & 白须瀑布', detail: '冬季可看雪覆蓝池与结冰溪谷，夏季是经典蓝绿色水景，全年都很上镜。', image: '/images/biei-furano/01.jpg' },
-      { time: '12:30', title: '富良野 / 美瑛午餐', detail: '可安排汤咖喱、蛋包饭、农场餐厅或网红咖啡馆，自由度高。', image: '/images/biei-furano/17.jpg' },
+      { time: '12:30', title: '富良野 / 美瑛午餐', detail: '可安排汤咖喱、蛋包饭、农场餐厅或网红咖啡馆，自由度高。', image: '/images/biei-furano/10.jpg' },
       { time: '14:00', title: '拼布之路 / 四季彩之丘', detail: '根据季节改走丘陵、花田、孤独的树或雪地活动点，兼顾轻松与出片率。', image: '/images/biei-furano/16.jpg' },
       { time: '17:30', title: '返回札幌', detail: '日落前后返程，冬季沿途雪原和林道也很适合补拍风景。', image: '/images/biei-furano/18.jpg' },
     ],
@@ -88,7 +88,7 @@ export const routes: RouteItem[] = [
     tags: ['运河', '街拍', '海港'],
     highlights: ['小樽运河', '堺町通', '天狗山', '雪景街道'],
     itinerary: [
-      { time: '09:00', title: '札幌出发', detail: '约 1 小时抵达小樽，适合作为轻松不折腾的一日游或半日延长线。', image: '/images/otaru/15.jpg' },
+      { time: '09:00', title: '札幌出发', detail: '约 1 小时抵达小樽，适合作为轻松不折腾的一日游或半日延长线。', image: '/images/otaru/12.jpg' },
       { time: '10:30', title: '小樽运河散策', detail: '漫步石仓群、运河边步道与港口街景，冬季尤其有电影感。', image: '/images/otaru/01.jpg' },
       { time: '12:00', title: '海鲜或甜品午餐', detail: '可自由安排寿司、海胆饭、LeTAO 甜品或咖啡馆，不被固定餐标限制。', image: '/images/otaru/05.jpg' },
       { time: '14:00', title: '堺町通自由活动', detail: '逛玻璃工艺、音乐盒堂、伴手礼商店，也可加走天狗山看海港高处视角。', image: '/images/otaru/11.jpg' },
@@ -119,7 +119,7 @@ export const routes: RouteItem[] = [
       { time: '12:00', title: '洞爷湖午餐 & 湖景休息', detail: '在湖区餐厅安排午餐，顺带拍摄湖面、雪山和温泉街景，节奏比常规跟团更松弛。', image: '/images/noboribetsu-toya/01.jpg' },
       { time: '14:00', title: '登别温泉街 / 地狱谷轻徒步', detail: '下午转往登别，保留地狱谷作为补充看点，以温泉街散策和火山地貌短停为主。', image: '/images/noboribetsu-toya/04.jpg' },
       { time: '15:30', title: '昭和新山 / 熊牧场可选', detail: '若时间充裕，可增加昭和新山、熊牧场或有珠山缆车等机动景点，让行程更灵活。', image: '/images/noboribetsu-toya/09.jpg' },
-      { time: '18:30', title: '返回札幌', detail: '适合作为冬季北海道里兼顾玩雪、看湖景与温泉氛围的一条成熟一日线路。', image: '/images/snow-scenery/03.jpg' },
+      { time: '18:30', title: '返回札幌', detail: '适合作为冬季北海道里兼顾玩雪、看湖景与温泉氛围的一条成熟一日线路。', image: '/images/noboribetsu-toya/10.jpg' },
     ],
     title: {
       zh: '登别洞爷雪地摩托一日游',
@@ -134,19 +134,19 @@ export const routes: RouteItem[] = [
   },
   {
     slug: 'eastern-hokkaido-6d5n',
-    image: '/images/eastern-hokkaido/01.jpg',
+    image: '/images/eastern-hokkaido/08.jpg',
     duration: '6 Days 5 Nights',
     priceFrom: '¥298,000 起 / 团',
     season: 'Spring / Summer / Autumn / Winter',
     tags: ['深度游', '秘境', '野生动物'],
     highlights: ['屈斜路湖', '摩周湖', '知床', '流冰破冰船', '丹顶鹤'],
     itinerary: [
-      { time: 'D1', title: '札幌 / 新千岁集合', detail: '接机后出发前往道东方向，按航班与季节安排首晚住宿。', image: '/images/eastern-hokkaido/05.jpg' },
-      { time: 'D2', title: '阿寒湖 / 屈斜路湖', detail: '看湖景、温泉与冬季天鹅等季节性风物，节奏相对舒缓。', image: '/images/eastern-hokkaido/01.jpg' },
-      { time: 'D3', title: '摩周湖 & 硫黄山', detail: '高能见度时安排经典观景点，也可增加硫黄山与周边地热地貌。', image: '/images/eastern-hokkaido/02.jpg' },
-      { time: 'D4', title: '知床 / 网走方向', detail: '根据季节安排知床五湖、流冰破冰船、鄂霍次克海沿线或野生动物观察。', image: '/images/eastern-hokkaido/07.jpg' },
-      { time: 'D5', title: '鹤居村 / 钏路湿原', detail: '冬季重点看丹顶鹤，其他季节可走湿原展望与生态摄影路线。', image: '/images/eastern-hokkaido/04.jpg' },
-      { time: 'D6', title: '返程日', detail: '根据回程城市安排送机或回札幌，可做最后的湖景或湿原补拍。', image: '/images/eastern-hokkaido/10.jpg' },
+      { time: 'D1', title: '札幌 / 新千岁集合', detail: '接机后出发前往道东方向，按航班与季节安排首晚住宿。', image: '/images/eastern-hokkaido/16.jpg' },
+      { time: 'D2', title: '阿寒湖 / 屈斜路湖', detail: '看湖景、温泉与冬季天鹅等季节性风物，节奏相对舒缓。', image: '/images/eastern-hokkaido/08.jpg' },
+      { time: 'D3', title: '摩周湖 & 硫黄山', detail: '高能见度时安排经典观景点，也可增加硫黄山与周边地热地貌。', image: '/images/eastern-hokkaido/09.jpg' },
+      { time: 'D4', title: '知床 / 网走方向', detail: '根据季节安排知床五湖、流冰破冰船、鄂霍次克海沿线或野生动物观察。', image: '/images/eastern-hokkaido/10.jpg' },
+      { time: 'D5', title: '鹤居村 / 钏路湿原', detail: '冬季重点看丹顶鹤，其他季节可走湿原展望与生态摄影路线。', image: '/images/eastern-hokkaido/01.jpg' },
+      { time: 'D6', title: '返程日', detail: '根据回程城市安排送机或回札幌，可做最后的湖景或湿原补拍。', image: '/images/eastern-hokkaido/11.jpg' },
     ],
     title: {
       zh: '道东6天5晚深度游',
